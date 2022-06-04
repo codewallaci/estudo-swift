@@ -26,7 +26,7 @@ struct ContentView: View {
                         TextField("Primeiro nome", text: $viewModel.primeiroNome)
                         TextField("Sobrenome", text: $viewModel.subrenome)
                     }
-                    Section(footer: Text("Sua senha deve ter mais de 8 caracteres.")){
+                    Section(footer: Text("Sua senha deve ter mais de 8 caracteres")){
                         SecureField("Crie uma senha", text: $viewModel.senha)
                         SecureField("Confirme sua senha", text: $viewModel.senhaConfirmar)
                     }
